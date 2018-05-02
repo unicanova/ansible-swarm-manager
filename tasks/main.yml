@@ -1,0 +1,5 @@
+---
+- include: docker-info.yml
+- include: swarm-init.yml
+  when: (swarm_init | default(false)) | bool
+- include: swarm-manager.yml
