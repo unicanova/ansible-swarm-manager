@@ -7,7 +7,9 @@
 - name: "register manager token"
   shell: docker swarm join-token -q manager
   register: manager_token
+  changed_when: False
 
 - name: "register worker token"
   shell: docker swarm join-token -q worker
   register: worker_token
+  changed_when: False
