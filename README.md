@@ -25,7 +25,7 @@ $ git clone https://github.com/unicanova/ansible-swarm-manager
 $ cd ansible-users
 ```
 Specify host addresses in the file /etc/ansible/hosts.  
-Create a [site.yml](#Ex3) file, where you can specify the users you need to add.  
+Create a [site.yml](#Ex3) file, where you can specify where you want initialize the swarm cluster and connect the swarm manager to it.  
 In the playbook site.yml you can override varibales according to the [table](#Table1), if necessary.  
 
 Execute command:  
